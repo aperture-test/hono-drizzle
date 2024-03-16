@@ -1,0 +1,30 @@
+@host = localhost
+@port = 3000
+@id=4
+
+### Get Products
+GET http://{{host}}:{{port}}/products
+
+### Get Product By Id
+GET http://{{host}}:{{port}}/products/{{id}}
+
+### Create Product
+POST http://{{host}}:{{port}}/products
+Content-Type: application/json
+
+{
+    "title": "Product 1",
+    "price": 100
+}
+
+### Update Product
+PUT http://{{host}}:{{port}}/products/{{id}}
+Content-Type: application/json
+
+{
+    "title": "Product 1",
+    "price": 111
+}
+
+### Delete Product
+DELETE http://{{host}}:{{port}}/products/{{id}}

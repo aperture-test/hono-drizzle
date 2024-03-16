@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.2",
+    "hono": "^4.1.0",
+    "pg": "^8.11.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.2",
+    "drizzle-kit": "^0.20.14"
+  }
+}
