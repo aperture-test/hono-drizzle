@@ -1,4 +1,4 @@
-import { products } from '@/drizzle/schema';
+import { products } from '@/schema';
 import { z } from 'zod';
 
 type Product = typeof products.$inferSelect;

@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "migrate": "bun src/migrate.ts",
+    "makemigration": "bun drizzle-kit generate:pg"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.2.0",

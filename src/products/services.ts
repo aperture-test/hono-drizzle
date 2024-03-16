@@ -1,5 +1,5 @@
-import db from '@/drizzle/db';
-import { products as ProductsTable } from '@/drizzle/schema';
+import db from '@/db';
+import { products as ProductsTable } from '@/schema';
 import { eq } from 'drizzle-orm';
 import { ProductInsert } from './model';
 
